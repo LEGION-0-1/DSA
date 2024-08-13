@@ -7,3 +7,6 @@ Program done
 
 Insertion sort:
 Program done
+
+Selection sort:
+Program done
