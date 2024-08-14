@@ -10,3 +10,6 @@ Program done
 
 Selection sort:
 Program done
+
+Shell sort:
+Program done
