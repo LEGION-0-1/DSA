@@ -13,3 +13,6 @@ Program done
 
 Shell sort:
 Program done
+
+Merge sort:
+Program done
