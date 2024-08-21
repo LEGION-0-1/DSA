@@ -22,3 +22,6 @@ Program done
 
 Linear Search:
 Program done
+
+Binary Search:
+Program done
