@@ -4,6 +4,7 @@ Consists programs and short notes of Data Structure and Algorithms
 
 Bubble Sort:
 Program done
+Algorithm written
 
 Insertion Sort:
 Program done
