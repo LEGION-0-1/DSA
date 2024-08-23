@@ -11,6 +11,7 @@ Program done
 
 Selection Sort:
 Program done
+Algorithm written
 
 Shell Sort:
 Program done
