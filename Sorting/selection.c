@@ -1,10 +1,10 @@
 #include <stdio.h>
 
-int selection(int num[], int count){
-    for(int i = 0; i < count; i++){
+int selection(int num[], int count){//function for sorting
+    for(int i = 0; i < count; i++){//traversing the array to find the smallest element
         int position = i;
         for(int j = 0; j < count; j++){
-            if (num[position] > num[j]){
+            if (num[position] > num[j]){//swapping by value
                 position = j;
             }if(position != i){
                 int swap = num[i];
@@ -14,25 +14,25 @@ int selection(int num[], int count){
         }
     }
     printf("\nThe sorted array is: ");
-    for(int i = 0; i < count; i++){
+    for(int i = 0; i < count; i++){//printing the sorted array
         printf("%d ", num[i]);
     }
 }
 
 int main(){
-    int a,count;
+    int count;//variable for number of elements to be input in the array
     printf("Please enter the number of inputs: ");
-    scanf("%d", &count);
-    int num[count];
+    scanf("%d", &count);//giving count an integer value
+    int num[count];//array declaration
     printf("Please enter the numerical inputs: ");
-    for(int i = 0; i < count; i++){
+    for(int i = 0; i < count; i++){//storing inputs in an array
         scanf("%d", &num[i]);
     }
     printf("The original array is: ");
-    for(int i = 0; i < count; i++){
+    for(int i = 0; i < count; i++){//printing the original array
         printf("%d ", num[i]);
     }
-    selection(num, count);
+    selection(num, count);//passing values to another function
 }
 
 /*Algorithm
