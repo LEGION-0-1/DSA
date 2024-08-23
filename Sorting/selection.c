@@ -34,3 +34,8 @@ int main(){
     }
     selection(num, count);
 }
+
+/*Algorithm
+1. traverse from left and compare adjacent elements and the lower one is placed at left side. 
+2. In this way, the smallest element is moved to the leftmost end at first. 
+3. This process is then continued to find the second smallest and place it and so on until the data is sorted.*/
