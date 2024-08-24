@@ -8,6 +8,7 @@ Algorithm written
 
 Insertion Sort:
 Program done
+Algorithm written
 
 Selection Sort:
 Program done
