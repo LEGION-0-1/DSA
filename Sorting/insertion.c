@@ -32,3 +32,8 @@ int main(){
     int len = sizeof(num)/ sizeof(num[0]);
     insertion(num, len);
 }
+
+/*Algorithm
+1. Traverse from left and compare adjacent elements and the higher one is placed at right side. 
+2. In this way, the largest element is moved to the rightmost end at first. 
+3. This process is then continued to find the second largest and place it and so on until the data is sorted.*/
