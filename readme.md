@@ -2,29 +2,33 @@
 Created by Dilpreet (LEGION) Singh
 Consists programs and short notes of Data Structure and Algorithms
 
-Bubble Sort:
-Program done
-Algorithm written
+Sorting:
 
-Insertion Sort:
-Program done
-Algorithm written
+    Bubble Sort:
+        Program done
+        Algorithm written
 
-Selection Sort:
-Program done
-Algorithm written
+    Insertion Sort:
+        Program done
+        Algorithm written
 
-Shell Sort:
-Program done
+    Selection Sort:
+        Program done
+        Algorithm written
 
-Merge Sort:
-Program done
+    Shell Sort:
+        Program done
 
-Radix Sort:
-Program done
+    Merge Sort:
+        Program done
 
-Linear Search:
-Program done
+    Radix Sort:
+        Program done
 
-Binary Search:
-Program done
+Searching:
+
+    Linear Search:
+        Program done
+
+    Binary Search:
+        Program done
