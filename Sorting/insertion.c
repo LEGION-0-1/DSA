@@ -5,7 +5,7 @@ void insertion(int num[], int len){//function for sorting
         int a = num[i];
         int b = i - 1;
 
-        while (b >= 0 && num[b] > a) {//swapping by value 
+        while (b >= 0 && num[b] > a) {//swapping by value to sort the array
             num[b + 1] = num[b];
             b = b - 1;
         }

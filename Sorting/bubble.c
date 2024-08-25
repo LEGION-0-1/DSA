@@ -4,7 +4,7 @@ int bubble(int num[], int count){//function for sorting
     for(int a = 0; a < count; a++){
         for(int i = 0; i < count; i++){//traversing through the array
         if(num[i]>num[i+1]){
-            int temp = num[i];//swapping by values
+            int temp = num[i];//swapping by values to sort the array
             num[i] = num[i+1];
             num[i+1] = temp;
         }

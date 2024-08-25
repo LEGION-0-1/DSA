@@ -4,7 +4,7 @@ int selection(int num[], int count){//function for sorting
     for(int i = 0; i < count; i++){//traversing the array to find the smallest element
         int position = i;
         for(int j = 0; j < count; j++){
-            if (num[position] > num[j]){//swapping by value
+            if (num[position] > num[j]){//swapping by value to sort the array
                 position = j;
             }if(position != i){
                 int swap = num[i];
