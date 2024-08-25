@@ -18,6 +18,7 @@ Sorting:
 
     Shell Sort:
         Program done
+        Algorithm written
 
     Merge Sort:
         Program done
