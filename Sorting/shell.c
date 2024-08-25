@@ -33,3 +33,6 @@ int main(){
     }
     shell(num, count);
 }
+
+/*It is a variation of Insertion Sort
+*/
