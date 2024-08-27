@@ -7,7 +7,7 @@ int getMax(int arr[], int n){
             mx = arr[i];
         }
     }
-    return mx;
+    return mx;//returning the largest number
 }
 
 void countSort(int arr[], int n, int exp) {
@@ -31,10 +31,10 @@ void countSort(int arr[], int n, int exp) {
 }
 
 void radixSort(int arr[], int n){  
-    int m = getMax(arr, n); 
+    int m = getMax(arr, n);//finding largest number
 
     for (int exp = 1; m / exp > 0; exp *= 10){
-        countSort(arr, n, exp);
+        countSort(arr, n, exp);//sorting digit by digit by count sort
     }
 }
 
@@ -46,21 +46,20 @@ void printArray(int arr[], int n){
 }
 
 int main(){
-    int a,count;
+    int count;//variable for number of elements to be input in the array
     printf("Please enter the number of inputs: ");
-    scanf("%d", &count);
-    int num[count];
+    scanf("%d", &count);//giving count an integer value
+    int num[count];//array declaration
     printf("Please enter the numerical inputs: ");
-    for(int i = 0; i < count; i++){
+    for(int i = 0; i < count; i++){//storing inputs in an array
         scanf("%d", &num[i]);
     }
     printf("The original array is: ");
-    for(int i = 0; i < count; i++){
+    for(int i = 0; i < count; i++){//printing the original array
         printf("%d ", num[i]);
     }
-    radixSort(num, count);
-    printArray(num, count);
-    return 0;
+    radixSort(num, count);//passing values to another function
+    printArray(num,count);//printing the sorted array via function
 }
 
 /*Algorithm
