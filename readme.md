@@ -25,6 +25,7 @@ Sorting:
 
     Radix Sort:
         Program done
+        Algorithm written
 
 Searching:
 
