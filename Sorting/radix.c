@@ -62,3 +62,8 @@ int main(){
     printArray(num, count);
     return 0;
 }
+
+/*Algorithm
+1. The biggest number is found
+2. The array is sorted digit by digit in counting sort method
+*/
