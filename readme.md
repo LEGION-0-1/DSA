@@ -22,7 +22,7 @@ Sorting:
 
     Merge Sort:
         Program done
-
+        Algorithm written
     Radix Sort:
         Program done
         Algorithm written
