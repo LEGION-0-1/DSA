@@ -80,3 +80,9 @@ int main(){
 	printArray(num, count); 
 	return 0; 
 }
+
+/*Algorithm
+The Merge Sort algorithm is a divide-and-conquer algorithm that sorts an array by first breaking it down into smaller arrays, and then building the array back together the correct way so that it is sorted.
+1. Divide: The algorithm starts with breaking up the array into smaller and smaller pieces until one such sub-array only consists of one element.
+2. Conquer: The algorithm merges the small pieces of the array back together by putting the lowest values first, resulting in a sorted array.
+*/
