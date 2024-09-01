@@ -1,8 +1,7 @@
 #include <stdio.h> 
 #include <stdlib.h> 
 
-void merge(int arr[], int l, int m, int r) 
-{ 
+void merge(int arr[], int l, int m, int r){// function actually responsible for sorting
 	int i, j, k; 
 	int n1 = m - l + 1; 
 	int n2 = r - m; 
@@ -44,7 +43,7 @@ void merge(int arr[], int l, int m, int r)
 	} 
 } 
 
-void mergeSort(int arr[], int l, int r){ 
+void mergeSort(int arr[], int l, int r){ //function dividing the array into smaller arrays
 	if (l < r){ 
 		int m = l + (r - l) / 2; 
 
@@ -55,29 +54,27 @@ void mergeSort(int arr[], int l, int r){
 	} 
 } 
 
-void printArray(int A[], int size){ 
+void printArray(int A[], int size){//function to print the original array 
 	int i; 
 	for (i = 0; i < size; i++) 
 		printf("%d ", A[i]); 
 	printf("\n"); 
 } 
 
-int main(){ 
-	int a,count;
+int main(){
+    int count;//variable for number of elements to be input in the array
     printf("Please enter the number of inputs: ");
-    scanf("%d", &count);
-    int num[count];
+    scanf("%d", &count);//giving count an integer value
+    int num[count];//array declaration
     printf("Please enter the numerical inputs: ");
-    for(int i = 0; i < count; i++){
+    for(int i = 0; i < count; i++){//storing inputs in an array
         scanf("%d", &num[i]);
     }
-	printf("Given array is \n"); 
-	printArray(num, count); 
-
-	mergeSort(num, 0, count - 1); 
-
+    printf("The original array is: ");
+	printArray(num, count);//passing values to another function to print the array 
+	mergeSort(num, 0, count - 1);//passing values to another function to be sorted 
 	printf("\nSorted array is \n"); 
-	printArray(num, count); 
+	printArray(num, count); //passing values to another function to print the sorted array 
 	return 0; 
 }
 
